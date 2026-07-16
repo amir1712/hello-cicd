@@ -20,9 +20,9 @@ spec:
       containers:
       - name: hello-cicd
 
-        image: hello-cicd:v1
+        image: amirhosseinhaydari/hello-cicd:latest
 
-        imagePullPolicy: IfNotPresent
+        imagePullPolicy: Always
 
         ports:
         - containerPort: 5000
